@@ -19,6 +19,7 @@
 		59F40976191FC67B00A7744C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F4095E191FC67B00A7744C /* UIKit.framework */; };
 		59F4097E191FC67B00A7744C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59F4097C191FC67B00A7744C /* InfoPlist.strings */; };
 		59F40980191FC67B00A7744C /* TestProjectGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F4097F191FC67B00A7744C /* TestProjectGitHubTests.m */; };
+		DBB394AF191F5CB50084D063 /* RentonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB394AE191F5CB50084D063 /* RentonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		59F4097B191FC67B00A7744C /* TestProjectGitHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProjectGitHubTests-Info.plist"; sourceTree = "<group>"; };
 		59F4097D191FC67B00A7744C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59F4097F191FC67B00A7744C /* TestProjectGitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectGitHubTests.m; sourceTree = "<group>"; };
+		DBB394AD191F5CB50084D063 /* RentonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentonViewController.h; sourceTree = "<group>"; };
+		DBB394AE191F5CB50084D063 /* RentonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				59F4096A191FC67B00A7744C /* RentonAppDelegate.m */,
 				59F4096C191FC67B00A7744C /* Images.xcassets */,
 				59F40961191FC67B00A7744C /* Supporting Files */,
+				DBB394AD191F5CB50084D063 /* RentonViewController.h */,
+				DBB394AE191F5CB50084D063 /* RentonViewController.m */,
 			);
 			path = TestProjectGitHub;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				59F4096B191FC67B00A7744C /* RentonAppDelegate.m in Sources */,
 				59F40967191FC67B00A7744C /* main.m in Sources */,
+				DBB394AF191F5CB50084D063 /* RentonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 				59F40985191FC67B00A7744C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59F40986191FC67B00A7744C /* Build configuration list for PBXNativeTarget "TestProjectGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				59F40988191FC67B00A7744C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
